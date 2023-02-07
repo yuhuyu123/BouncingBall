@@ -1,30 +1,8 @@
 body {
-    background-color: gray;
+    background-color: white;
     display: flex;
     min-height: 100vh;
     min-width: 100vw;
-    align-items: center;
-    justify-content: center;
+   
 }
 
-.main-display {
-    flex-shrink: 0;
-    background-color: whitesmoke;
-    height: 60vh;
-    width: 60vh;
-}
-
-.buttons {
-    flex-shrink: 0;
-    height: 10vh;
-    display: flex;
-    background-color: purple;
-    gap: 1vh;
-    padding: 1vh;
-}
-
-.button {
-    background-color: black;
-    height: 5vh;
-    width: 5vh;
-}
